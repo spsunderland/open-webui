@@ -6,6 +6,12 @@ resources:
 - base/webui-service.yaml
 - base/webui-ingress.yaml
 - base/webui-pvc.yaml
+- base/configmap.yaml
+- base/virtualservice.yaml
+- base/serviceaccount.yaml
+- base/role.yaml
+- base/rolebinding.yaml
+- base/gateway.yaml
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
